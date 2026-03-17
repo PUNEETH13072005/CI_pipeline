@@ -7,6 +7,6 @@ import static org.junit.Assert.*;
 public class HelloTest {
     @Test
     public void testMessage(){
-        assertEquals("Hello from Jenkins!!", HelloWorld.Message());
+        assertEquals("Hello from pipeline!!", HelloWorld.Message());
     }
 }
